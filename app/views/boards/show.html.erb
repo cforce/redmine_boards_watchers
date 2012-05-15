@@ -1,4 +1,5 @@
-<%= breadcrumb link_to(l(:label_board_plural), project_boards_path(@project)) %>
+<!-- Hot fix for http://www.redmine.org/boards/3/topics/16247?r=29949#message-29949 -->
+<!-- <%= breadcrumb link_to(l(:label_board_plural), project_boards_path(@project)) %> -->
 
 <div class="contextual">
 <%= link_to_if_authorized l(:label_message_new),
